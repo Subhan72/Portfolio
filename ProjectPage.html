@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <header class="flex justify-between items-center p-4 bg-white shadow-sm">
+      <div class="w-12 h-12 rounded-full overflow-hidden">
+        <img src="images/HomePage.png" alt="Header Logo" class="w-full h-full object-cover" />
+      </div>
+      <nav class="flex space-x-6 text-lg">
+        <a href="PersonalProfile.html" class="text-gray-600 hover:text-gray-900">Personal Profile</a>
+        <a href="GalleryPage.html" class="text-gray-600 hover:text-gray-900">Gallery Page</a>
+        <a href="CareerGoalsPage.html" class="text-gray-600 hover:text-gray-900">Career Goals</a>
+        <a href="ProjectPage.html" class="text-gray-600 hover:text-gray-900">Projects</a>
+        <a href="Skills.html" class="text-gray-600 hover:text-gray-900">Skills and Interests</a>
+        <a href="Contact.html" class="text-gray-600 hover:text-gray-900">Contact Us</a>
+      </nav>
+    </header>
+    <div class="min-h-screen p-6 md:p-10 lg:p-16 bg-gray-100">
+      <h1 class="text-4xl font-bold mb-10 text-center">My Projects</h1>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="images/Project1.JPG" alt="Project Image" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">Fast Gaming Society</h2>
+            <p class="text-gray-600 mb-4">In this project I build a gaming society in which multiple user eg President, Mentors ,Leaders etc had differnt functions which they could perform</p>
+            <p class="text-gray-800 font-bold mb-2">Technologies Used:</p>
+            <p class="text-gray-600 mb-4">HTML, CSS, JavaScript, React, Firebase<,Node.js, Express/p>
+            <div class="flex space-x-4">
+              <a href="https://github.com/Subhan72/fast-gaming-society" class="text-blue-600 hover:text-blue-800">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="images/Project2.JPG" alt="Project Image" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">Recipe App</h2>
+            <p class="text-gray-600 mb-4">In this project I used an API due to which we could search projects in real time</p>
+            <p class="text-gray-800 font-bold mb-2">Technologies Used:</p>
+            <p class="text-gray-600 mb-4">HTML, CSS, JavaScript, React, RecipeApi</p>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="images/Project3.JPG" alt="Project Image" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">Todo App</h2>
+            <p class="text-gray-600 mb-4">It's a simple Todo App made using React and Mongodb</p>
+            <p class="text-gray-800 font-bold mb-2">Technologies Used:</p>
+            <p class="text-gray-600 mb-4">React, MongoDB</p>
+            <div class="flex space-x-4">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+        }
+      }
+
+      @media (min-width: 641px) and (max-width: 1024px) {
+        h1 {
+          font-size: 3rem;
+        }
+
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+
+      @media (min-width: 1025px) {
+        h1 {
+          font-size: 4rem;
+        }
+
+        h2 {
+          font-size: 1.75rem;
+        }
+      }
+    </style>
+  </body>
+</html>

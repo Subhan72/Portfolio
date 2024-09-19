@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <header class="flex justify-between items-center p-4 bg-white shadow-sm">
+      <div class="w-12 h-12 rounded-full overflow-hidden">
+        <img src="images/HomePage.png" alt="Header Logo" class="w-full h-full object-cover" />
+      </div>
+      <nav class="flex space-x-6 text-lg">
+        <a href="PersonalProfile.html" class="text-gray-600 hover:text-gray-900">Personal Profile</a>
+        <a href="GalleryPage.html" class="text-gray-600 hover:text-gray-900">Gallery Page</a>
+        <a href="CareerGoalsPage.html" class="text-gray-600 hover:text-gray-900">Career Goals</a>
+        <a href="ProjectPage.html" class="text-gray-600 hover:text-gray-900">Projects</a>
+        <a href="Skills.html" class="text-gray-600 hover:text-gray-900">Skills and Interests</a>
+        <a href="Contact.html" class="text-gray-600 hover:text-gray-900">Contact Us</a>
+      </nav>
+    </header>
+
+    <div class="min-h-screen p-4">
+      <h1 class="text-4xl font-bold text-center mb-8">My Gallery</h1>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="group relative">
+          <img
+            src="images/Cricket.jfif"
+            alt="Hobby"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="text-white text-lg">Cricket is my love, my passion</p>
+          </div>
+        </div>
+
+        <div class="group relative">
+          <img
+            src="images/Chess.jfif"
+            alt="Hobby"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="text-white text-lg">During my free time, I love playing chess as it simulates mind.</p>
+          </div>
+        </div>
+
+        <div class="group relative">
+          <img
+            src="images/Project1.JPG"
+            alt="Travel 1"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="text-white text-lg">This was my 1st big project which I did in my internship</p>
+          </div>
+        </div>
+
+        <div class="group relative">
+          <img
+            src="images/Hiking.jfif"
+            alt="Hobby 2"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="text-white text-lg">I love being in the nature and exploring it</p>
+          </div>
+        </div>
+
+        <div class="group relative">
+          <img
+            src="images/Project2.JPG"
+            alt="Project 2"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="text-white text-lg">This was my another one of my project.</p>
+          </div>
+        </div>
+
+        <div class="group relative">
+          <img
+            src="images/Project3.JPG"
+            alt="Travel 2"
+            class="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p class="text-white text-lg">This was my another one of my project.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+
+      @media (min-width: 641px) and (max-width: 1024px) {
+        h1 {
+          font-size: 3rem;
+        }
+      }
+
+      @media (min-width: 1025px) {
+        h1 {
+          font-size: 4rem;
+        }
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <header class="flex justify-between items-center p-4 bg-white shadow-sm">
+      <div class="w-12 h-12 rounded-full overflow-hidden">
+        <img src="images/HomePage.png" alt="Header Logo" class="w-full h-full object-cover" />
+      </div>
+      <nav class="flex space-x-6 text-lg">
+        <a href="Homepage.html" class="text-gray-600 hover:text-gray-900">Home Page</a>
+        <a href="GalleryPage.html" class="text-gray-600 hover:text-gray-900">Gallery Page</a>
+        <a href="CareerGoalsPage.html" class="text-gray-600 hover:text-gray-900">Career Goals</a>
+        <a href="ProjectPage.html" class="text-gray-600 hover:text-gray-900">Projects</a>
+        <a href="Skills.html" class="text-gray-600 hover:text-gray-900">Skills and Interests</a>
+        <a href="Contact.html" class="text-gray-600 hover:text-gray-900">Contact Us</a>
+      </nav>
+    </header>
+
+    <div class="flex flex-col items-center justify-center min-h-screen p-4">
+      <div class="w-48 h-48 rounded-full overflow-hidden shadow-lg mb-6">
+        <img
+          src="images/ProfilePicture.jpg"
+          alt="Profile Picture"
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="text-center max-w-2xl space-y-4 mb-8">
+        <h1 class="text-4xl font-bold">Subhan Ahmed</h1>
+        <p class="text-gray-600 text-lg">
+          Hi! I am Subhan Ahmed, currently pursuing a Bachelor's degree in
+          Software Engineering at FAST NUCES. My journey in software development
+          started with a keen interest in programming and solving real-world
+          problems through technology.
+        </p>
+        <p class="text-gray-600 text-lg">
+          I like web development as I have made projects regarding this domain. I also like machine learning and Data Science.
+          Though I am not a fast learner and the most talented coder but I do not give up that's my one quality that sets me apart from the rest.
+        </p>
+      </div>
+      <div class="flex space-x-6">
+        <a
+          href="https://linkedin.com/in/subhan-ahmed-189286278"
+          class="text-gray-600 hover:text-blue-700"
+        >
+          <i class="fab fa-linkedin text-3xl"></i>
+        </a>
+        <a href="https://github.com/Subhan72" class="text-gray-600 hover:text-gray-900">
+          <i class="fab fa-github text-3xl"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/subhanahmed.72?igsh=MXFodW4xNWIzZGZreA=="
+          class="text-gray-600 hover:text-pink-600"
+        >
+          <i class="fab fa-instagram text-3xl"></i>
+        </a>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+
+      @media (min-width: 641px) and (max-width: 1024px) {
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        p {
+          font-size: 1.25rem;
+        }
+      }
+
+      @media (min-width: 1025px) {
+        h1 {
+          font-size: 3rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </body>
+</html>

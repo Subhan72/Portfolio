@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <header class="flex justify-between items-center p-4 bg-white shadow-sm">
+      <div class="w-12 h-12 rounded-full overflow-hidden">
+        <img src="images/HomePage.png" alt="Header Logo" class="w-full h-full object-cover" />
+      </div>
+      <nav class="flex space-x-6 text-lg">
+        <a href="PersonalProfile.html" class="text-gray-600 hover:text-gray-900">Personal Profile</a>
+        <a href="GalleryPage.html" class="text-gray-600 hover:text-gray-900">Gallery Page</a>
+        <a href="CareerGoalsPage.html" class="text-gray-600 hover:text-gray-900">Career Goals</a>
+        <a href="ProjectPage.html" class="text-gray-600 hover:text-gray-900">Projects</a>
+        <a href="Skills.html" class="text-gray-600 hover:text-gray-900">Skills and Interests</a>
+        <a href="Contact.html" class="text-gray-600 hover:text-gray-900">Contact Us</a>
+      </nav>
+    </header>
+
+    <main class="flex flex-col items-center justify-center h-screen p-4">
+      <div class="text-center space-y-6">
+        <div class="w-48 h-48 rounded-full overflow-hidden mx-auto">
+          <img
+            src="images/HomePage.png"
+            alt="Profile Picture"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold">Subhan Ahmed</h1>
+        <h2 class="text-gray-600 text-2xl md:text-xl">
+          A 5th semester SE student at FAST NUCES.
+        </h2>
+      </div>
+    </main>
+
+    <style>
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 3.5rem;
+        }
+      }
+
+      @media (min-width: 641px) and (max-width: 1024px) {
+        h1 {
+          font-size: 4.5rem;
+        }
+      }
+
+      @media (min-width: 1025px) {
+        h1 {
+          font-size: 5rem;
+        }
+      }
+    </style>
+  </body>
+</html>
